@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body{
+    background-color: #4b4145;
+    font-family: 'CookieRun-Regular', sans-serif;
+  }
+  
+  #top-frame{
+    width: 100%;
+    height: 200px;
+  }
+  
+  #main-frame{
+    position: relative;
+    left: 100px;
+    width: calc(100% - 200px);
+    background-color: white;
+    border-radius: 35px;
+    color: #4b4145;
+    padding-bottom: 180px;
+  }
+  
+  #bottom-frame{
+    width: 100%;
+    height: 100px;
+  }
+  
+  #btn-search-tap {
+    position: relative;
+    top: 0px;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fde7f1;
+  
+  }
+  
+  #btn-search-tap input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #btn-search-tap input,
+  #btn-search-tap button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 0px;
+    color: #75636B;
+    font-weight: bold;
+  }
+  
+  #btn-search-tap input[type="text"] {
+    width: 250px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: white;
+  }
+  
+  #search-area{
+    display: inline-block; /* 또는 flexbox 사용 */
+  }
+  
+  #search-area button{
+    background-color: #ffffff;
+  }
+  
+  #search-area button:hover{
+    background-color: #e7e7e7;
+  }
+  
+  #search-area button:active{
+    background-color: #c0c0c0;
+  }
+  
+  #btn-search-tap form{
+    position: relative;
+    top: 20px;
+  }
+  
+  #utility-tap{
+    position: relative;
+    top: 80px;
+    width: 100%;
+  }
+  
+  #utilitys a{
+    position: relative;
+    background-color: rgb(96, 158, 113);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    display: inline-block;
+  }
+  
+  @keyframes pulsate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  #utilitys a:hover {
+    animation: pulsate 0.8s infinite;
+  }
+  
+  #utilitys a:active {
+    animation: none;
+    transform: scale(1.1);
+  }
+  
+  #keyword-tap{
+    position: relative;
+    top: 70px;
+    left: 5%;
+    width: 90%;
+    font-size: 24px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #4b4145;
+  }
+  
+  #job-tap{
+    position: relative;
+    top: 120px;
+    left: 5%;
+    width: 90%;
+  }
+  
+  .job{
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    padding-bottom: 30px;
+  }
+  
+  .company-name{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .job-title{
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .job-link a{
+    position: relative;
+    top: 5px;
+  
+  }
+  
