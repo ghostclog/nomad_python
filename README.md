@@ -1,9 +1,17 @@
 # nomad_python
 
-## 노마드 코더 파이썬 10주 스터디 첫번째 졸업작품(파이썬편)입니다.
-- 작업기간(Working period): 2024.08.21~2024.08.21
+## 노마드 코더 파이썬 10주 스터디 첫번째 졸업작품(파이썬)입니다.
+- 작업기간(Working period): 2024.08.20~2024.08.21
+- 프로젝트 인원은 1명으로 개인으로 진행하였습니다.
 - 디자인이 이틀가량 소모되었고, 구현이 하루가량 소모되었습니다.(The design consumed about two days, and the implementation consumed about a day.)
-- 사용 라이브러리(Use Library): beautifulSoap4(데이터 스크랩핑), requests(데이터 스크랩핑) / flask(웹 구축)
+
+## 구현 목표 및 핵심 기능
+- 특정 키워드 입력시 사용자가 선택한 옵션에 따라 구인 공고를 찾아서 사용자에게 제공
+- 구인 공고를 csv형태로 다운로드 기능
+
+## 사용 기술 및 라이브러리
+- 핵심 기술: 웹스크랩핑, 웹서버 구축
+- 사용 라이브러리: 플라스크, beautifulSoap4, requests
 - 스크랩핑에 사용된 사이트(Site used for Scrapping): berlinstartupjobs / web3.career
 
 ## 사이트 설명
