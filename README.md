@@ -64,4 +64,4 @@ def web3_find_jobs(keyword, job_list):<br>
 site의 파라미터에 한해서 사이트에서 처리 가능한 값만 받을 수 있게 설정해놨으며, 그 외의 데이터가 들어올 경우 기본 주소(/)로 리다이랙트되도록 구현해놨습니다. <br>
 Only the parameters of the site are set to receive values that can be processed by the site, and if other data are received, it is implemented to be redirected to the default address (/).
 
-### 작업한 replit link: https://replit.com/@ghoostdog/PythonGraduate#main.py
+### 작업한 replit link: https://replit.com/@ghoostdog/nomadpython
