@@ -38,7 +38,22 @@ After searching for keywords, data clipped by the selected site is scattered on 
 ![링크](https://github.com/user-attachments/assets/3cbb2670-3d2e-4a47-b602-6e1c0386b0b0)
 
 사이트는 전반적으로 get 방식을 사용하며, keyword와 site라는 파라미터가 사용됩니다. <br>
-The site generally uses the get method, and the parameters keyword and site are used.
+The site generally uses the get method, and the parameters keyword and site are used.<br>
+사용자가 입력한 키워드는 scapers.py에 선언한 함수들로 넘어가고, 필요한 url을 만든 뒤 데이터를 스크랩핑합니다.<br><br>
+- 베를린 페이지 스크립핑 코드 일부<br>
+BASE_URL1 = "https://berlinstartupjobs.com/skill-areas/"<br>
+def berlin_find_jobs(keyword, job_list):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;url = BASE_URL1 + keyword<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;response = requests.get(url)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;soup = BeautifulSoup(response.content, "html.parser")<br><br>
+  
+- web3페이지 스크랩핑 코드 일부<br>
+BASE_URL2 = "https://web3.career/"<br>
+def web3_find_jobs(keyword, job_list):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;url = BASE_URL2 + keyword<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;response = requests.get(url)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;soup = BeautifulSoup(response.content, "html.parser")<br>
+
 
 <br>
 
